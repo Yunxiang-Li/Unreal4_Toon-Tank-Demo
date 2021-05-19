@@ -1,0 +1,5 @@
+<map id="APawnTank" name="APawnTank">
+<area shape="rect" id="node1" title="This class represents all behaviors a pawn tank should have which inherits from the APawnBase class." alt="" coords="7,155,97,181"/>
+<area shape="rect" id="node2" href="$class_a_pawn_base.html" title="The base class of all pawn related derived classes which inherits from the APawn class." alt="" coords="5,80,99,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="21,5,83,32"/>
+</map>

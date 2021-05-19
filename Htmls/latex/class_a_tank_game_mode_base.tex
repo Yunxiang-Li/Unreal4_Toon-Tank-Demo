@@ -1,0 +1,95 @@
+\hypertarget{class_a_tank_game_mode_base}{}\doxysection{ATank\+Game\+Mode\+Base Class Reference}
+\label{class_a_tank_game_mode_base}\index{ATankGameModeBase@{ATankGameModeBase}}
+
+
+This class represents the game mode base of the Toon Tank game which inherits from the AGame\+Mode\+Base class.  
+
+
+
+
+{\ttfamily \#include $<$Tank\+Game\+Mode\+Base.\+h$>$}
+
+
+
+Inheritance diagram for ATank\+Game\+Mode\+Base\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=197pt]{class_a_tank_game_mode_base__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for ATank\+Game\+Mode\+Base\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=197pt]{class_a_tank_game_mode_base__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_a_tank_game_mode_base_ac5ba05c077b749df21d6f0b55d7d71a9}{Actor\+Died}} (AActor $\ast$Dead\+Actor)
+\begin{DoxyCompactList}\small\item\em All hebaviors after a certain AActor object died(destroyed). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_a_tank_game_mode_base_a26b0f67cbd3c9d8f2bd38698271ccb2a}\label{class_a_tank_game_mode_base_a26b0f67cbd3c9d8f2bd38698271ccb2a}} 
+virtual void {\bfseries Begin\+Play} () override
+\item 
+\mbox{\Hypertarget{class_a_tank_game_mode_base_a23818c3baf0c2989546588f786fcff1c}\label{class_a_tank_game_mode_base_a23818c3baf0c2989546588f786fcff1c}} 
+void \mbox{\hyperlink{class_a_tank_game_mode_base_a23818c3baf0c2989546588f786fcff1c}{Game\+Start}} ()
+\begin{DoxyCompactList}\small\item\em All behaviors for game start. This functions is not going to be implemented in this C++ class but in a derived blueprint. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_a_tank_game_mode_base_a8eb8a9349dc2b2f86235d77f7090f227}{Game\+Over}} (bool Player\+Won)
+\begin{DoxyCompactList}\small\item\em All behaviors for game over. This functions is not going to be implemented in this C++ class but in a derived blueprint. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_a_tank_game_mode_base_aaa7df7a9e6775b6c64609f8340576cbd}\label{class_a_tank_game_mode_base_aaa7df7a9e6775b6c64609f8340576cbd}} 
+int32 {\bfseries Start\+Delay} \{3\}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class represents the game mode base of the Toon Tank game which inherits from the AGame\+Mode\+Base class. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_a_tank_game_mode_base_ac5ba05c077b749df21d6f0b55d7d71a9}\label{class_a_tank_game_mode_base_ac5ba05c077b749df21d6f0b55d7d71a9}} 
+\index{ATankGameModeBase@{ATankGameModeBase}!ActorDied@{ActorDied}}
+\index{ActorDied@{ActorDied}!ATankGameModeBase@{ATankGameModeBase}}
+\doxysubsubsection{\texorpdfstring{ActorDied()}{ActorDied()}}
+{\footnotesize\ttfamily void ATank\+Game\+Mode\+Base\+::\+Actor\+Died (\begin{DoxyParamCaption}\item[{AActor $\ast$}]{Dead\+Actor }\end{DoxyParamCaption})}
+
+
+
+All hebaviors after a certain AActor object died(destroyed). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Dead\+Actor} & A pointer to a AActor object(maybe a Pawn\+Tank object or a Pawn\+Turret object). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_a_tank_game_mode_base_a8eb8a9349dc2b2f86235d77f7090f227}\label{class_a_tank_game_mode_base_a8eb8a9349dc2b2f86235d77f7090f227}} 
+\index{ATankGameModeBase@{ATankGameModeBase}!GameOver@{GameOver}}
+\index{GameOver@{GameOver}!ATankGameModeBase@{ATankGameModeBase}}
+\doxysubsubsection{\texorpdfstring{GameOver()}{GameOver()}}
+{\footnotesize\ttfamily void ATank\+Game\+Mode\+Base\+::\+Game\+Over (\begin{DoxyParamCaption}\item[{bool}]{Player\+Won }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+All behaviors for game over. This functions is not going to be implemented in this C++ class but in a derived blueprint. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Player\+Won} & A boolean value check if the player won or not. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Source/\+Toon\+Tanks/\+Game\+Modes/Tank\+Game\+Mode\+Base.\+h\item 
+Source/\+Toon\+Tanks/\+Game\+Modes/Tank\+Game\+Mode\+Base.\+cpp\end{DoxyCompactItemize}
