@@ -39,28 +39,50 @@ I use Unreal4.26.2 and Visual Studio code for this project under Windows 10 envi
 
 ## Structure
 
-The whole project in Unreal contains *3* main folders,  **Assets** folder, **Content** folder and **C++ Classes** folder.
+The whole project in Unreal contains **2** main folders, **Content** folder and **C++ Classes** folder.
 
-Under **Content** folder, there are altogether **5** subfolders:
+Under **Content** folder, there are altogether **3** subfolders:
 
-1. **Blueprints folder**: contains a Blueprint Class which called **DefaultPawn_BP** indicates the modified default pawn class.
+1. **Assets folder**: contains **5** subfolders including all assets we need for this game demo.
 
-2. **Levels folder**: contains the demo's level.
+      1.1. **Audio** folder: contains **2** sound wave audio files.
 
-3. **MedievalDungeon** folder: contains all **2** objects we need in this demo.
+      1.2. **Effects** folder: contains **3** particle system effects.
 
-4. **Sound** folder: contains the door open/close sound file
+      1.3. **Materials** folder: contains altogether **15** materials, material instances and material functions.
 
-5. **Models** folder: contains all models we need in this demo which has **4** subfolders:
+      1.4. **Meshes** folder: contains **6** static meshes.
 
-      5.1. **Instances** folder: contains **5** material instances we need in this demo such as `MI_Door`, `MI_Wall` and so on.
+      1.5. **Textures** folder: contains **3** textures.
+      
+2. **Blueprints folder**: contains **6** subfolders including all Blueprint classes and widget Blueprint we need for this game demo.
 
-      5.2. **Materials** folder: contains **5** materials we need in this demo such as `M_Brass`, `M_Cell` and so on.
+      2.1. **Actor** folder: contains **1** Blueprint class indicates the projectile.
 
-      5.3. **StaticMeshes** folder: contains **2** static meshes we need in this demo. They are `SM_DoorFrame` and `SM_Door`.
+      2.2. **Camera** folder: contains **2** Blueprint classes indicates camera shake effects when hit or explode.
 
-      5.4. **Textures** folder: contains **4** textures we need in this demo such as `T_Cell_BC`, `T_Door_BC` and so on.
+      2.3. **GameModes** folder: contains **1** Blueprint class indicates our custom GameMode class.
 
+      2.4. **Pawns** folder: contains **2** Blueprint classes indicates our tank and turret classes.
+
+      2.5. **PlayerControllers** folder: contains **1** Blueprint class indicates our custom PlayerController class.
+      
+      2.6. **Widgets** folder: contains **2** widget Blueprint indicate `GameStart()` and `GameOver()` functions.
+
+3. **Maps** folder: contains **1** level object indicates our main game map.
+
+Under **C++ Classes** folder, there is **1** subfolder **ToonTanks** which contains **5** subfolders:
+
+      2.1. **Actor** folder: contains **1** Blueprint class indicates the projectile.
+
+      2.2. **Camera** folder: contains **2** Blueprint classes indicates camera shake effects when hit or explode.
+
+      2.3. **GameModes** folder: contains **1** Blueprint class indicates our custom GameMode class.
+
+      2.4. **Pawns** folder: contains **2** Blueprint classes indicates our tank and turret classes.
+
+      2.5. **PlayerControllers** folder: contains **1** Blueprint class indicates our custom PlayerController class.
+      
 ## Maintainers
 
 [@Yunxiang-Li](https://github.com/Yunxiang-Li).
