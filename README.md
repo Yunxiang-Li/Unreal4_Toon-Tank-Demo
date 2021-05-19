@@ -43,7 +43,7 @@ The whole project in Unreal contains **2** main folders, **Content** folder and 
 
 Under **Content** folder, there are altogether **3** subfolders:
 
-1. **Assets folder**: contains **5** subfolders including all assets we need for this game demo.
+1. **Assets** folder: contains **5** subfolders including all assets we need for this game demo.
 
       1.1. **Audio** folder: contains **2** sound wave audio files.
 
@@ -55,7 +55,7 @@ Under **Content** folder, there are altogether **3** subfolders:
 
       1.5. **Textures** folder: contains **3** textures.
       
-2. **Blueprints folder**: contains **6** subfolders including all Blueprint classes and widget Blueprint we need for this game demo.
+2. **Blueprints** folder: contains **6** subfolders including all Blueprint classes and widget Blueprint we need for this game demo.
 
       2.1. **Actor** folder: contains **1** Blueprint class indicates the projectile.
 
@@ -71,17 +71,19 @@ Under **Content** folder, there are altogether **3** subfolders:
 
 3. **Maps** folder: contains **1** level object indicates our main game map.
 
-Under **C++ Classes** folder, there is **1** subfolder **ToonTanks** which contains **5** subfolders:
+Under **C++ Classes** folder, there is **1** subfolder:
 
-   1.1. **Actor** folder: contains **1** `ProjectileBase` class indicates the projectile class.
+1. **ToonTanks** folder: contains **5** subfolders of C++ classes we need for this game demo.
 
-   1.2. **Components** folder: contains **1** `HealthComponent` class indicates our custom health component for the tank and turrets.
+      1.1. **Actor** folder: contains **1** `ProjectileBase` class indicates the projectile class.
 
-   1.3. **GameModes** folder: contains **1** `TankGameModeBase` class indicates our custom GameModeBase class.
+      1.2. **Components** folder: contains **1** `HealthComponent` class indicates our custom health component for the tank and turrets.
 
-   1.4. **Pawns** folder: contains **3** classes, `PawnBase` class for all derived classes' parent class, `PawnTank` class for the tank and `PawnTurret` class for turrets.
+      1.3. **GameModes** folder: contains **1** `TankGameModeBase` class indicates our custom GameModeBase class.
 
-   1.5. **PlayerControllers** folder: contains **1** `PlayerControllerBase` indicates our custom PlayerController class.
+      1.4. **Pawns** folder: contains **3** classes, `PawnBase` class for all derived classes' parent class, `PawnTank` class for the tank and `PawnTurret` class for turrets.
+
+      1.5. **PlayerControllers** folder: contains **1** `PlayerControllerBase` indicates our custom PlayerController class.
       
 ## Maintainers
 
