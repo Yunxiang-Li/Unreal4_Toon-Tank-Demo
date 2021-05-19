@@ -23,6 +23,10 @@ In this demo, player can use `wasd` keys to control the toon tank(`w/s` keys to 
 
 ## Exhibition
 
+<div align="center"> <img src="https://github.com/Yunxiang-Li/Unreal4_Toon-Tank-Demo/blob/main/Screenshots%20and%20GIFs/Lost%20Situation.gif"/> </div>
+
+<div align="center"> <img src="https://github.com/Yunxiang-Li/Unreal4_Toon-Tank-Demo/blob/main/Screenshots%20and%20GIFs/Win%20Situation.gif"/> </div>
+
 ## Install
 
 I use Unreal4.26.2 and Visual Studio code for this project under Windows 10 environment.<br>
@@ -39,6 +43,10 @@ I use Unreal4.26.2 and Visual Studio code for this project under Windows 10 envi
 3. Let the **Unreal Game Engine** rebuild the demo.
 
 ## Diagram
+
+<div align="center"> <img src="https://github.com/Yunxiang-Li/Unreal4_Toon-Tank-Demo/blob/main/Screenshots%20and%20GIFs/Class%20Diagram.jpg"/> </div>
+
+<div align="center"> <img src="https://github.com/Yunxiang-Li/Unreal4_Toon-Tank-Demo/blob/main/Screenshots%20and%20GIFs/Blueprint.jpg"/> </div>
 
 ## Structure
 
