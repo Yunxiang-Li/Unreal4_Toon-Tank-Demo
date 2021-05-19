@@ -2,7 +2,7 @@
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-A simple esacpe game demo based on Unreal4 Game Engine.
+A simple 3d tank shooting game demo based on Unreal4 Game Engine.
 
 ## Table of Contents
 
@@ -21,10 +21,6 @@ This is a very simple building escape game demo made by Unreal4 Game Engine.
 In this demo, player needs to open two doors and escape the room. Player can use `wasd` or arrow keys to move and use mouse to change views. Additionally, player can use right mouse button to grab or release objects in the scene(button pressed to grab and button released to release).
 
 ## Exhibition
-
-<div align="center"> <img src="https://github.com/Yunxiang-Li/Unreal4_Escape-Room-Demo/blob/main/Screenshots%20and%20GIFs/Exhibition.gif"/> </div>
-
-<div align="center"> <img src="https://github.com/Yunxiang-Li/Unreal4_Escape-Room-Demo/blob/main/Screenshots%20and%20GIFs/Exhibition.jpg"/> </div>
 
 ## Install
 
@@ -71,4 +67,4 @@ Under **Content** folder, there are altogether **5** subfolders:
 
 ## License
 
-[MIT license](https://github.com/Yunxiang-Li/Unreal4_Escape-Room-Demo/blob/master/LICENSE)
+[MIT license](https://github.com/Yunxiang-Li/Unreal4_Toon-Tank-Demo/blob/main/LICENSE)
