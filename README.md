@@ -16,30 +16,30 @@ A simple 3d tank shooting game demo based on Unreal4 Game Engine.
 
 ## Background
 
-This is a very simple building escape game demo made by Unreal4 Game Engine.
+This is a very simple 3d tank shooting game demo made by Unreal4 Game Engine(C++ codes and Blueprints).
 
-In this demo, player needs to open two doors and escape the room. Player can use `wasd` or arrow keys to move and use mouse to change views. Additionally, player can use right mouse button to grab or release objects in the scene(button pressed to grab and button released to release).
+In this demo, player can use `wasd` keys to control the toon tank(`w/s` keys to move forward or backward, `a/d` keys to rotate left or right) and left mouse key to shoot projectiles. In order to win the game, player needs to control the tank to destory all 4 turrets. If the player tank is destroyed by turrets' projectiles then the game is over and player loses.
 
 ## Exhibition
 
 ## Install
 
-I use Unreal4.25-4 and Visual Studio code for this project under Windows 10 environment.<br>
+I use Unreal4.26.2 and Visual Studio code for this project under Windows 10 environment.<br>
 [Unreal download](https://www.unrealengine.com/en-US/download)<br>
 [Visual Studio 2019 download](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=16)<br>
 [Visual Code download](https://code.visualstudio.com/docs/?dv=win)
 
 ## Usage
 
-1. Download this repo, open(or zip and open) the **Unreal4_Escape-Room-Demo** folder.
+1. Download this repo, open(or zip and open) the **Unreal4_Toon-Tank-Demo** folder.
 
-2. Double click the **BuildingEscape.uproject** file.
+2. Double click the **ToonTanks.uproject** file.
 
 3. Let the **Unreal Game Engine** rebuild the demo.
 
 ## Structure
 
-The whole project in Unreal contains two main folders, **Content** folder and **C++ Classes** folder.
+The whole project in Unreal contains *3* main folders,  **Assets** folder, **Content** folder and **C++ Classes** folder.
 
 Under **Content** folder, there are altogether **5** subfolders:
 
