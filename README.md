@@ -1,4 +1,4 @@
-# Unreal4_Escape-Room-Demo
+# Unreal4_Toon-Tank-Demo
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
@@ -73,15 +73,15 @@ Under **Content** folder, there are altogether **3** subfolders:
 
 Under **C++ Classes** folder, there is **1** subfolder **ToonTanks** which contains **5** subfolders:
 
-      2.1. **Actor** folder: contains **1** Blueprint class indicates the projectile.
+   1.1. **Actor** folder: contains **1** `ProjectileBase` class indicates the projectile class.
 
-      2.2. **Camera** folder: contains **2** Blueprint classes indicates camera shake effects when hit or explode.
+   1.2. **Components** folder: contains **1** `HealthComponent` class indicates our custom health component for the tank and turrets.
 
-      2.3. **GameModes** folder: contains **1** Blueprint class indicates our custom GameMode class.
+   1.3. **GameModes** folder: contains **1** `TankGameModeBase` class indicates our custom GameModeBase class.
 
-      2.4. **Pawns** folder: contains **2** Blueprint classes indicates our tank and turret classes.
+   1.4. **Pawns** folder: contains **3** classes, `PawnBase` class for all derived classes' parent class, `PawnTank` class for the tank and `PawnTurret` class for turrets.
 
-      2.5. **PlayerControllers** folder: contains **1** Blueprint class indicates our custom PlayerController class.
+   1.5. **PlayerControllers** folder: contains **1** `PlayerControllerBase` indicates our custom PlayerController class.
       
 ## Maintainers
 
