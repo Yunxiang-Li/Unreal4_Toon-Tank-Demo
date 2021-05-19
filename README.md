@@ -10,6 +10,7 @@ A simple 3d tank shooting game demo based on Unreal4 Game Engine.
 - [Exhibition](#Exhibition)
 - [Install](#install)
 - [Usage](#usage)
+- [Diagram](#Diagram)
 - [Structure](#Structure)
 - [Maintainers](#Maintainers)
 - [License](#license)
@@ -36,6 +37,8 @@ I use Unreal4.26.2 and Visual Studio code for this project under Windows 10 envi
 2. Double click the **ToonTanks.uproject** file.
 
 3. Let the **Unreal Game Engine** rebuild the demo.
+
+## Diagram
 
 ## Structure
 
