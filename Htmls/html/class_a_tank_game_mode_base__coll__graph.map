@@ -1,4 +1,0 @@
-<map id="ATankGameModeBase" name="ATankGameModeBase">
-<area shape="rect" id="node1" title="This class represents the game mode base of the Toon Tank game which inherits from the AGameModeBase ..." alt="" coords="5,80,161,107"/>
-<area shape="rect" id="node2" title=" " alt="" coords="19,5,147,32"/>
-</map>

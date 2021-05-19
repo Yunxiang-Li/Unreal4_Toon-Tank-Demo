@@ -1,4 +1,0 @@
-<map id="AProjectileBase" name="AProjectileBase">
-<area shape="rect" id="node1" title="The base class of all Projectile related derived classes which inherits from the AActor class." alt="" coords="5,80,120,107"/>
-<area shape="rect" id="node2" title=" " alt="" coords="31,5,94,32"/>
-</map>
